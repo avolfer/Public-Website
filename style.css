@@ -1,0 +1,70 @@
+body {
+    background-image: url(image/pexels-mack-kamp-1449455.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-size: 150%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+.box-skills {
+    transition: all 1s;
+}
+
+.box-skills:hover {
+    transform: scale(1.1);
+}
+
+.navbar-item-box {
+    padding:20px;
+    transition: all 1s;
+}
+
+.navbar-item-box:hover {
+    transform: scale(1.05);
+}
+
+.container {
+    justify-content: center;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.781);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5em;
+    text-align: center;
+    font-size: 120%;
+}
+
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 150%;
+}
+
+#container-skills-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 25px;
+}
+
