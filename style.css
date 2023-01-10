@@ -24,6 +24,11 @@ a:hover {
     transform: scale(1.1);
 }
 
+hr {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
 .box-skills {
     transition: all 1s;
 }
@@ -68,3 +73,11 @@ a:hover {
     padding-bottom: 25px;
 }
 
+#container-free-space{
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+#free-space {
+    margin-top: 40em;
+}
